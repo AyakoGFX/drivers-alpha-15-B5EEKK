@@ -1,0 +1,70 @@
+; Blackmagic Design Fairlight Panels USB Device
+; Copyright 2011-2023 Blackmagic Design
+
+
+
+[Version]
+Signature = "$Windows NT$"
+Class=Media
+ClassGuid={4d36e96c-e325-11ce-bfc1-08002be10318}
+CatalogFile=FairlightPanels.cat
+Provider=%Blackmagic%
+DriverVer=06/07/2023, 1.6.4.0
+
+[Manufacturer]
+%Blackmagic%=Blackmagic,NTamd64
+
+[Blackmagic]
+%USB\VID_1EDB&PID_BE0B.DeviceDesc%=FairlightPanels, USB\VID_1EDB&PID_BE0B
+%USB\VID_1EDB&PID_BE19.DeviceDesc%=FairlightPanels, USB\VID_1EDB&PID_BE19
+%USB\VID_1EDB&PID_BE39.DeviceDesc%=FairlightPanels, USB\VID_1EDB&PID_BE39
+%USB\VID_1EDB&PID_BE2B.DeviceDesc%=FairlightPanels, USB\VID_1EDB&PID_BE2B
+%USB\VID_1EDB&PID_BE2A.DeviceDesc%=FairlightPanels, USB\VID_1EDB&PID_BE2A
+%USB\VID_1EDB&PID_BE7D.DeviceDesc%=FairlightPanels, USB\VID_1EDB&PID_BE7D
+%USB\VID_1EDB&PID_BE72.DeviceDesc%=FairlightPanels, USB\VID_1EDB&PID_BE72
+[Blackmagic.NTamd64]
+%USB\VID_1EDB&PID_BE0B.DeviceDesc%=FairlightPanels, USB\VID_1EDB&PID_BE0B
+%USB\VID_1EDB&PID_BE19.DeviceDesc%=FairlightPanels, USB\VID_1EDB&PID_BE19
+%USB\VID_1EDB&PID_BE39.DeviceDesc%=FairlightPanels, USB\VID_1EDB&PID_BE39
+%USB\VID_1EDB&PID_BE2B.DeviceDesc%=FairlightPanels, USB\VID_1EDB&PID_BE2B
+%USB\VID_1EDB&PID_BE2A.DeviceDesc%=FairlightPanels, USB\VID_1EDB&PID_BE2A
+%USB\VID_1EDB&PID_BE7D.DeviceDesc%=FairlightPanels, USB\VID_1EDB&PID_BE7D
+%USB\VID_1EDB&PID_BE72.DeviceDesc%=FairlightPanels, USB\VID_1EDB&PID_BE72
+
+[SourceDisksNames]
+0=%DiskName%,,,
+
+[SourceDisksFiles]
+FairlightPanels.sys=0,,
+
+[DestinationDirs]
+DefaultDestDir = 12
+FairlightPanels.Files.Drivers = 12
+
+[FairlightPanels]
+CopyFiles = FairlightPanels.Files.Drivers
+
+[FairlightPanels.Services]
+AddService = FairlightPanels, 0x00000002, FairlightPanels.AddService
+
+[FairlightPanels.AddService]
+DisplayName    = %FairlightPanels.ServiceDesc%
+ServiceType    = 1 ; SERVICE_KERNEL_DRIVER
+StartType      = 3 ; SERVICE_DEMAND_START
+ErrorControl   = 1 ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\FairlightPanels.sys
+
+[FairlightPanels.Files.Drivers]
+FairlightPanels.sys
+
+[Strings]
+Blackmagic = "Blackmagic Design"
+USB\VID_1EDB&PID_BE0B.DeviceDesc="Fairlight Console LCD Monitor"
+USB\VID_1EDB&PID_BE19.DeviceDesc="Fairlight Console Audio Editor"
+USB\VID_1EDB&PID_BE39.DeviceDesc="Fairlight Desktop Audio Editor"
+USB\VID_1EDB&PID_BE2B.DeviceDesc="Fairlight Console Channel Fader"
+USB\VID_1EDB&PID_BE2A.DeviceDesc="Fairlight Console Channel Control"
+USB\VID_1EDB&PID_BE7D.DeviceDesc="Fairlight HDMI Monitor Interface"
+USB\VID_1EDB&PID_BE72.DeviceDesc="Fairlight Desktop Console"
+FairlightPanels.ServiceDesc = "Blackmagic Fairlight Panel Driver"
+DiskName="Blackmagic Fairlight Panel Drivers"

@@ -1,0 +1,709 @@
+[Version]
+Signature = "$WINDOWS NT$"
+Class = Extension
+ClassGuid = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider = %Provider%
+ExtensionId = {dd052805-d06a-4ac5-9629-329ff6a861e5}
+DriverVer = 12/29/2022,1.5.7.0
+CatalogFile = AVoluteNH3Ext.cat
+
+[SourceDisksNames]
+222 = %DiskId1%
+
+[SourceDisksFiles]
+NH3ProductSettings0.cab=222
+NH3ProductSettings1.cab=222
+
+[DestinationDirs]
+;; Windows\System32\A-Volute\AGSConfigurator\
+AVoluteProdSettings0.CopyList = 11,\A-Volute\AGSConfigurator
+AVoluteProdSettings1.CopyList = 11,\A-Volute\AGSConfigurator
+
+[AVoluteProdSettings0.CopyList]
+NH3ProductSettings0.cab
+
+[AVoluteProdSettings1.CopyList]
+NH3ProductSettings1.cab
+
+[Manufacturer]
+%Provider% = DeviceExtensions,NTamd64
+
+[DeviceExtensions.NTamd64]
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_146212AE ;; 16V1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212CD ;; 16UK
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212CE ;; 17EK
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212D4 ;; 155K
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_146212ED ;; 16V3
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_146212EE ;; 1542
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_146212EF ;; 17K2
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_146212F0 ;; 1542
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212F1 ;; 17F5
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212F2 ;; 16W2
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_146212F3 ;; 17K2
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212F4 ;; 16R5
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212F9 ;; 17F6
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_14621301 ;; 16V3
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1462130E ;; 158K
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_14621313 ;; 158L
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_14621314 ;; 17LL
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_14621316 ;; 15CK
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1462137A ;; 15CK
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1462138B ;; 158K
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1462138D ;; 158L
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1462138E ;; 17LL
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213AB ;; 158M
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213B2 ;; 15CL
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213DD ;; 158N
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213DE ;; 17LN
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213DF ;; 158P
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213ED ;; 17KK
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_14622DF6 ;; B929 (B760)
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_14626D05 ;; MS-B929
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_14626D19 ;; B929
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_14627CD5 ;; B937
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_1462B837 ;; B924 (B760)
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_1462B921 ;; B921 (SPB)
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_1462B924 ;; B924 (SPB)
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_1462B92A ;; B939
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_1462B92B ;; B922
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_1462B935 ;; B935 (SPB)
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_1462B937 ;; MS-B937
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_1462B939 ;; MS-B939
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_1462B93A ;; B931
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_1462B941 ;; B941
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_1462BC24 ;; B929 (SPB)
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_1462CD03
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_1462CD04
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_1462CD05
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_1462CD19 ;; B926
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_1462CD22 ;; MS-B938
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_146212C5 ;; 14C4
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_146212D2 ;; 16S6
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212D9 ;; 1562
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0245&SUBSYS_146212DC ;; 13P2
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_146212DC ;; 13P2
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212E0 ;; 14D2
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212E1 ;; 1552
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_146212E2 ;; 14C4
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212E6 ;; 14D3
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_146212E8 ;; 1571
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_146212F5 ;; 16V4
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_146212F6 ;; 16V4
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_146212F8 ;; 17M1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212FA ;; 1563
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_146212FB ;; 1543_GE
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212FC ;; 1581
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212FD ;; 1582
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212FE ;; 17L1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212FF ;; 17L2
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_14621300 ;; 1591
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_14621302 ;; 14C5
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_14621304 ;; 1543_GP
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_14621305 ;; 17K3_GE
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_14621306 ;; 17K3_GP
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_14621315 ;; 17M1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1462131B ;; 16S7
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_1462131E ;; 16V5
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1462131F ;; 14F1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_14621320 ;; 1544_GE
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_14621321 ;; 1544
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_14621324 ;; 17K4
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_14621325 ;; 17K4_GP
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_14621328 ;; 1581
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_14621329 ;; 1582
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1462132E ;; 16R6
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_14621330 ;; 15B1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_14621331 ;; 1584
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_14621332 ;; 17L4
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_14621333 ;; 1583_Thin
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_14621334 ;; 17L3_Thin
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_14621346 ;; 17P1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_1462134C ;; MS-16R6
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1462134D ;; MS-16R6
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621351 ;; 1581
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621352 ;; 17L1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621353 ;; 1581
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621356 ;; 1582
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621357 ;; 17L2
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621358 ;; 1582
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1462135F ;; 1543_GP
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_14621360 ;; 17K3
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_14621361 ;; 1543_GE
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_14621363 ;; 17M1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_14621364 ;; 17M1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1462136A ;; 16V4
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1462136C ;; 16V4
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1462136D ;; 15B1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1462136F ;; 16V4
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621371 ;; 16V4
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621373 ;; 17M1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621374 ;; 17M1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621377 ;; 1543_GP
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621379 ;; 17K3_GP
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_1462137C ;; 14D3
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1462137E ;; 1584
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621381 ;; 17L4
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621382 ;; 1583_Thin
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621383 ;; 17L3_Thin
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1462138C ;; 1552
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1462138D ;; 158L
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1462138E ;; 17LL
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_1462138F ;; 16R7
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_14621390 ;; 17R1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_14621392 ;; 1583
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_14621393 ;; 17L3_Thick
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621394 ;; 1583
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621395 ;; 17L3_Thick
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621397 ;; 14D3
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_14621398 ;; 17R1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_14621399 ;; 17K5
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_1462139A ;; 1545
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1462139B ;; 16R7
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1462139C ;; 16R7
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213A5 ;; 17Q1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213B3 ;; 1545
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213B4 ;; 17K5
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213B6 ;; 16R8
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213B9 ;; 15K1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213BE ;; 1547
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213C7 ;; 1585(v1)
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213C8 ;; 17L5(v1)
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213D8 ;; 1585(v2)
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213D9 ;; 17L5(v2)
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213DC ;; 16R8
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213E8 ;; 15K1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213E9 ;; 1585 v1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213EA ;; 17L5 v1
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213EB ;; 1585 v2
+%Device.ExtensionDesc% = RtkHDARenderCapture0_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213EC ;; 17L5 v2
+%Device.ExtensionDesc% = RtkUSBRenderCapture1_Install,USB\VID_0DB0&PID_124B&MI_00 ;; MS-7D27
+%Device.ExtensionDesc% = RtkUSBRenderCapture1_Install,USB\VID_0DB0&PID_1BCA&MI_00 ;; MS-7D26
+%Device.ExtensionDesc% = RtkUSBRenderCapture1_Install,USB\VID_0DB0&PID_1D34&MI_00 ;; MS-7D38
+%Device.ExtensionDesc% = RtkUSBRenderCapture1_Install,USB\VID_0DB0&PID_5F5D&MI_00 ;; MEG Z590 GODLIKE
+%Device.ExtensionDesc% = RtkUSBRenderCapture1_Install,USB\VID_0DB0&PID_7B3D&MI_00 ;; B929 (SPB)
+%Device.ExtensionDesc% = RtkUSBRenderCapture1_Install,USB\VID_0DB0&PID_80A5&MI_00 ;; MEG Z590 UNIFY
+%Device.ExtensionDesc% = RtkUSBRenderCapture1_Install,USB\VID_0DB0&PID_82C7&MI_00 ;; MS-7D29
+%Device.ExtensionDesc% = RtkUSBRenderCapture1_Install,USB\VID_0DB0&PID_95BB&MI_00 ;; MS-7D28
+%Device.ExtensionDesc% = RtkUSBRenderCapture1_Install,USB\VID_0DB0&PID_A47C&MI_00 ;; MS-7D50
+%Device.ExtensionDesc% = RtkUSBRenderCapture1_Install,USB\VID_0DB0&PID_BB5A&MI_00 ;; MS-7D51
+%Device.ExtensionDesc% = RtkUSBRenderCapture1_Install,USB\VID_0DB0&PID_E06C&MI_00 ;; MS-B916 (SPB)
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_A0C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_12E21462&REV_10EC ;; 14C4
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_A0C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_12D21462&REV_10EC ;; 16S6
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_A0C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_12E11462&REV_10EC ;; 1552
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_A0C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_12D91462&REV_10EC ;; 1562
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_05&DEVTYPE_05&VEN_8086&DEV_AE35&SUBSYS_131F1462&REV_10EC ;; 14F1
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13201462&REV_10EC ;; 1544_GE
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13211462&REV_10EC ;; 1544
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13241462&REV_10EC ;; 17K4
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13251462&REV_10EC ;; 17K4_GP
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_138F1462&REV_10EC ;; 16R7
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_139B1462&REV_10EC ;; 16R7
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_139C1462&REV_10EC ;; 16R7
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51CA&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13B91462&REV_10EC ;; 15K1
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51CA&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13BC1462&REV_10EC ;; 17P2
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51CA&LINKTYPE_06&DEVTYPE_06&VEN_8086&DEV_AE50&SUBSYS_13BD1462&REV_10EC ;; 16V6
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51CA&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13BE1462&REV_10EC ;; 1547
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51CA&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13BF1462&REV_10EC ;; 17K7
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51CA&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13C01462&REV_10EC ;; 14K1
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_7A50&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13C41462&REV_10EC ;; 17Q2
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51CA&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13C71462&REV_10EC ;; 1585(v1)
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51CA&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13C81462&REV_10EC ;; 17L5(v1)
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51CA&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13CB1462&REV_10EC ;; 15F2
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_7A50&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13CC1462&REV_10EC ;; 15M2
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_7A50&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13CD1462&REV_10EC ;; 17S1
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_7A50&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13CE1462&REV_10EC ;; 15M1
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_7A50&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13CF1462&REV_10EC ;; 17S2
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51CA&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13D81462&REV_10EC ;; 1585(v2)
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51CA&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13D91462&REV_10EC ;; 17L5(v2)
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51CA&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13DA1462&REV_10EC ;; 17P3
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51CA&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13DC1462&REV_10EC ;; 16R8
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_7A50&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13E11462&REV_10EC ;; 15M1 GP
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_7A50&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13E21462&REV_10EC ;; 15M2 GP
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_7A50&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13E31462&REV_10EC ;; 17S1 GP
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_7A50&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13E41462&REV_10EC ;; 17S2 GP
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13E81462&REV_10EC ;; 15K1
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13E91462&REV_10EC ;; 1585 v1
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13EA1462&REV_10EC ;; 17L5 v1
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13EB1462&REV_10EC ;; 1585 v2
+%Device.ExtensionDesc% = IntelDmicOnRtkCodec2_Install,INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_13EC1462&REV_10EC ;; 17L5 v2
+%Device.ExtensionDesc% = AMDDmic3_Install,ACP\VEN_1022&DEV_15E2&SUBSYS_1462130E ;; 158K
+%Device.ExtensionDesc% = AMDDmic3_Install,ACP\VEN_1022&DEV_15E2&SUBSYS_14621313 ;; 158L
+%Device.ExtensionDesc% = AMDDmic3_Install,ACP\VEN_1022&DEV_15E2&SUBSYS_14621314 ;; 17LL
+%Device.ExtensionDesc% = AMDDmic3_Install,ACP\VEN_1022&DEV_15E2&SUBSYS_14621316 ;; 15CK
+%Device.ExtensionDesc% = AMDDmic3_Install,ACP\VEN_1022&DEV_15E2&SUBSYS_146213AB ;; 158M
+%Device.ExtensionDesc% = AMDDmic3_Install,ACP\VEN_1022&DEV_15E2&SUBSYS_146213DD ;; 158N
+%Device.ExtensionDesc% = AMDDmic3_Install,ACP\VEN_1022&DEV_15E2&SUBSYS_146213DE ;; 17LN
+%Device.ExtensionDesc% = AMDDmic3_Install,ACP\VEN_1022&DEV_15E2&SUBSYS_146213DF ;; 158P
+%Device.ExtensionDesc% = AMDDmic3_Install,ACP\VEN_1022&DEV_15E2&SUBSYS_146213ED ;; 17KK
+%Device.ExtensionDesc% = RtkHDARenderCapture4_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213BC ;; 17P2
+%Device.ExtensionDesc% = RtkHDARenderCapture4_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_146213BD ;; 16V6
+%Device.ExtensionDesc% = RtkHDARenderCapture4_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213BF ;; 17K7
+%Device.ExtensionDesc% = RtkHDARenderCapture4_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213C0 ;; 14K1
+%Device.ExtensionDesc% = RtkHDARenderCapture4_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213C4 ;; 17Q2
+%Device.ExtensionDesc% = RtkHDARenderCapture4_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213CB ;; 15F2
+%Device.ExtensionDesc% = RtkHDARenderCapture4_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213CC ;; 15M2
+%Device.ExtensionDesc% = RtkHDARenderCapture4_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213CD ;; 17S1
+%Device.ExtensionDesc% = RtkHDARenderCapture4_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213CE ;; 15M1
+%Device.ExtensionDesc% = RtkHDARenderCapture4_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213CF ;; 17S2
+%Device.ExtensionDesc% = RtkHDARenderCapture4_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213DA ;; 17P3
+%Device.ExtensionDesc% = RtkHDARenderCapture4_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213E1 ;; 15M1 GP
+%Device.ExtensionDesc% = RtkHDARenderCapture4_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213E2 ;; 15M2 GP
+%Device.ExtensionDesc% = RtkHDARenderCapture4_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213E3 ;; 17S1 GP
+%Device.ExtensionDesc% = RtkHDARenderCapture4_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_146213E4 ;; 17S2 GP
+
+[RtkHDARenderCapture0_Install]
+CopyFiles = AVoluteProdSettings0.CopyList
+AddReg = RtkRenderInterface_AddReg,RtkCaptureInterface_AddReg,General_RtkEPAddReg,MSIVN_RtkEPAddReg
+
+[RtkHDARenderCapture0_Install.Components]
+AddComponent = AVOLUTE_NH4APO,,APO_Install
+AddComponent = Nahimic_Mirroring,,Nahimic_Mirroring_Install
+
+[RtkHDARenderCapture0_Install.Devices]
+AddDevice = Nahimic_BTLink,,Nahimic_BTLink_RootDevice_Inst
+
+[RtkUSBRenderCapture1_Install]
+CopyFiles = AVoluteProdSettings0.CopyList
+
+[RtkUSBRenderCapture1_Install.Components]
+AddComponent = AVOLUTE_NH4APO,,APO_Install
+AddComponent = Nahimic_Mirroring,,Nahimic_Mirroring_Install
+
+[RtkUSBRenderCapture1_Install.Devices]
+AddDevice = Nahimic_BTLink,,Nahimic_BTLink_RootDevice_Inst
+
+[IntelDmicOnRtkCodec2_Install]
+
+[AMDDmic3_Install]
+
+[RtkHDARenderCapture4_Install]
+CopyFiles = AVoluteProdSettings1.CopyList
+AddReg = RtkRenderInterface_AddReg,RtkCaptureInterface_AddReg,General_RtkEPAddReg,MSIVN_RtkEPAddReg
+
+[RtkHDARenderCapture4_Install.Components]
+AddComponent = AVOLUTE_NH4APO,,APO_Install
+AddComponent = Nahimic_Mirroring,,Nahimic_Mirroring_Install
+
+[RtkHDARenderCapture4_Install.Devices]
+AddDevice = Nahimic_BTLink,,Nahimic_BTLink_RootDevice_Inst
+
+[APO_Install]
+ComponentIDs = VEN_AVOL&AID_0302
+Description = "A-Volute Nh4 Audio Effects Component"
+
+[Nahimic_Mirroring_Install]
+ComponentIDs = VEN_AVOL&IID_0300
+Description = "Nahimic Mirroring Component"
+
+[Nahimic_BTLink_RootDevice_Inst]
+HardwareIds = ROOT\NahimicBTLink
+
+[RtkHDARenderCapture0_Install.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,RearLineOutTopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearLineOutTopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,PrimaryLineOutTopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,PrimaryLineOutTopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,SingleLineOutTopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,SingleLineOutTopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,SecondaryLineOutTopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,SecondaryLineOutTopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,FrontPanelHeadphoneTopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontPanelHeadphoneTopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RtSpdifTopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RtSpdifTopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RtSpdifHDMITopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RtSpdifHDMITopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RtSpdifRCATopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RtSpdifRCATopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RtSpdifOptTopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RtSpdifOptTopo,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RearLineOutTopoSST,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearLineOutTopoSST,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RearLineOutTopoSST2,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearLineOutTopoSST2,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RearLineOutTopoSST3,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearLineOutTopoSST3,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RearLineOutTopoDock,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearLineOutTopoDock,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RearLineOutTopoHap,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearLineOutTopoHap,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RearLineOutTopoHap2,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearLineOutTopoHap2,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RearLineOutTopoHap3,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearLineOutTopoHap3,AzAudModel0.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInBlackTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInBlackTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInBlackTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInBlackTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInGreyTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInGreyTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInBlueTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInBlueTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInGreenTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInGreenTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInRedTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInRedTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInOrangeTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInOrangeTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInYellowTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInYellowTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInPurpleTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInPurpleTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInPinkTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInPinkTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInGoldenTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInGoldenTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInSilverTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInSilverTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInWhiteTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInWhiteTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInBlackTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInBlackTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInGreyTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInGreyTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInBlueTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInBlueTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInGreenTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInGreenTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInRedTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInRedTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInOrangeTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInOrangeTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInYellowTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInYellowTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInPurpleTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInPurpleTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInPinkTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInPinkTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInGoldenTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInGoldenTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInSilverTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInSilverTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInWhiteTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInWhiteTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RtMicInTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RtMicInTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RtFrontMicInTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RtFrontMicInTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,DigitalMICTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,DigitalMICTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RtMicArTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RtMicArTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RtMicInSSTTopo,AzAudModel0.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RtMicInSSTTopo,AzAudModel0.RtkCapture
+
+[RtkUSBRenderCapture1_Install.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,WaveOut1,RtkUsbAD1.RtkRender
+AddInterface=%KSCATEGORY_RENDER%,WaveOut1,RtkUsbAD1.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,WaveOut2,RtkUsbAD1.RtkRender
+AddInterface=%KSCATEGORY_RENDER%,WaveOut2,RtkUsbAD1.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,WaveOut3,RtkUsbAD1.RtkRender
+AddInterface=%KSCATEGORY_RENDER%,WaveOut3,RtkUsbAD1.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,WaveOut4,RtkUsbAD1.RtkRender
+AddInterface=%KSCATEGORY_RENDER%,WaveOut4,RtkUsbAD1.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,WaveOut5,RtkUsbAD1.RtkRender
+AddInterface=%KSCATEGORY_RENDER%,WaveOut5,RtkUsbAD1.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,WaveOut6,RtkUsbAD1.RtkRender
+AddInterface=%KSCATEGORY_RENDER%,WaveOut6,RtkUsbAD1.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,"{9B365890-165F-11D0-A195-0020AFD156E4}",RtkUsbAD1.RtkCapture
+AddInterface=%KSCATEGORY_CAPTURE%,"{9B365890-165F-11D0-A195-0020AFD156E4}",RtkUsbAD1.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,WaveIn1,RtkUsbAD1.RtkCapture
+AddInterface=%KSCATEGORY_CAPTURE%,WaveIn1,RtkUsbAD1.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,WaveIn2,RtkUsbAD1.RtkCapture
+AddInterface=%KSCATEGORY_CAPTURE%,WaveIn2,RtkUsbAD1.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,WaveIn3,RtkUsbAD1.RtkCapture
+AddInterface=%KSCATEGORY_CAPTURE%,WaveIn3,RtkUsbAD1.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,WaveIn4,RtkUsbAD1.RtkCapture
+AddInterface=%KSCATEGORY_CAPTURE%,WaveIn4,RtkUsbAD1.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,WaveIn5,RtkUsbAD1.RtkCapture
+AddInterface=%KSCATEGORY_CAPTURE%,WaveIn5,RtkUsbAD1.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,WaveIn6,RtkUsbAD1.RtkCapture
+AddInterface=%KSCATEGORY_CAPTURE%,WaveIn6,RtkUsbAD1.RtkCapture
+
+[IntelDmicOnRtkCodec2_Install.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,IntcDMicTopo_1_48_16_D0,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_TOPOLOGY%,IntcDMicTopo_1_48_16_D0,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_AUDIO%,IntcDMicTopo_2_48_16_D0,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_TOPOLOGY%,IntcDMicTopo_2_48_16_D0,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_AUDIO%,IntcDMicTopo_4_48_16_D0,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_TOPOLOGY%,IntcDMicTopo_4_48_16_D0,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_AUDIO%,IntcDMicTopo_1_48_16_D1,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_TOPOLOGY%,IntcDMicTopo_1_48_16_D1,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_AUDIO%,IntcDMicTopo_2_48_16_D1,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_TOPOLOGY%,IntcDMicTopo_2_48_16_D1,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_AUDIO%,IntcDMicTopo_4_48_16_D1,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_TOPOLOGY%,IntcDMicTopo_4_48_16_D1,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_AUDIO%,IntcDMicTopo_1_48_24_D0,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_TOPOLOGY%,IntcDMicTopo_1_48_24_D0,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_AUDIO%,IntcDMicTopo_2_48_24_D0,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_TOPOLOGY%,IntcDMicTopo_2_48_24_D0,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_AUDIO%,IntcDMicTopo_4_48_24_D0,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_TOPOLOGY%,IntcDMicTopo_4_48_24_D0,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_AUDIO%,IntcDMicTopo_1_48_24_D1,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_TOPOLOGY%,IntcDMicTopo_1_48_24_D1,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_AUDIO%,IntcDMicTopo_2_48_24_D1,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_TOPOLOGY%,IntcDMicTopo_2_48_24_D1,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_AUDIO%,IntcDMicTopo_4_48_24_D1,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_TOPOLOGY%,IntcDMicTopo_4_48_24_D1,AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_AUDIO%,"IntcDMicTopo_1 _48_16_0",AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_TOPOLOGY%,"IntcDMicTopo_1 _48_16_0",AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_AUDIO%,"IntcDMicTopo_2 _48_16_0",AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_TOPOLOGY%,"IntcDMicTopo_2 _48_16_0",AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_AUDIO%,"IntcDMicTopo_4 _48_16_0",AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_TOPOLOGY%,"IntcDMicTopo_4 _48_16_0",AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_AUDIO%,"IntcDMicWave",AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_CAPTURE%,"IntcDMicWave",AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_REALTIME%,"IntcDMicWave",AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_AUDIO%,"IntcDMicTopo",AzAudModel2.IntcDmicOnRtk
+AddInterface=%KSCATEGORY_TOPOLOGY%,"IntcDMicTopo",AzAudModel2.IntcDmicOnRtk
+
+[AMDDmic3_Install.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,TopologyMicIn0,AzAudModel3.AMDDmic
+AddInterface=%KSCATEGORY_TOPOLOGY%,TopologyMicIn0,AzAudModel3.AMDDmic
+AddInterface=%KSCATEGORY_AUDIO%,TopologyMicIn1,AzAudModel3.AMDDmic
+AddInterface=%KSCATEGORY_TOPOLOGY%,TopologyMicIn1,AzAudModel3.AMDDmic
+
+[RtkHDARenderCapture4_Install.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,RearLineOutTopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearLineOutTopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,PrimaryLineOutTopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,PrimaryLineOutTopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,SingleLineOutTopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,SingleLineOutTopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,SecondaryLineOutTopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,SecondaryLineOutTopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,FrontPanelHeadphoneTopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontPanelHeadphoneTopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RtSpdifTopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RtSpdifTopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RtSpdifHDMITopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RtSpdifHDMITopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RtSpdifRCATopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RtSpdifRCATopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RtSpdifOptTopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RtSpdifOptTopo,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RearLineOutTopoSST,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearLineOutTopoSST,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RearLineOutTopoSST2,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearLineOutTopoSST2,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RearLineOutTopoSST3,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearLineOutTopoSST3,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RearLineOutTopoDock,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearLineOutTopoDock,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RearLineOutTopoHap,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearLineOutTopoHap,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RearLineOutTopoHap2,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearLineOutTopoHap2,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RearLineOutTopoHap3,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearLineOutTopoHap3,AzAudModel4.RtkRender
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInBlackTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInBlackTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInBlackTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInBlackTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInGreyTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInGreyTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInBlueTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInBlueTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInGreenTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInGreenTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInRedTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInRedTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInOrangeTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInOrangeTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInYellowTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInYellowTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInPurpleTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInPurpleTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInPinkTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInPinkTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInGoldenTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInGoldenTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInSilverTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInSilverTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RearMicInWhiteTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RearMicInWhiteTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInBlackTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInBlackTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInGreyTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInGreyTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInBlueTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInBlueTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInGreenTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInGreenTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInRedTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInRedTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInOrangeTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInOrangeTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInYellowTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInYellowTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInPurpleTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInPurpleTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInPinkTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInPinkTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInGoldenTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInGoldenTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInSilverTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInSilverTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,FrontMicInWhiteTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,FrontMicInWhiteTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RtMicInTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RtMicInTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RtFrontMicInTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RtFrontMicInTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,DigitalMICTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,DigitalMICTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RtMicArTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RtMicArTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_AUDIO%,RtMicInSSTTopo,AzAudModel4.RtkCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,RtMicInSSTTopo,AzAudModel4.RtkCapture
+
+[AzAudModel0.RtkRender]
+AddReg = ProductId_AddReg,MSI_VendorName
+
+[AzAudModel0.RtkCapture]
+AddReg = ProductId_AddReg,MSI_VendorName
+
+[RtkUsbAD1.RtkRender]
+AddReg = ProductId_AddReg,MSI_VendorName
+
+[RtkUsbAD1.RtkCapture]
+AddReg = ProductId_AddReg,MSI_VendorName
+
+[AzAudModel2.IntcDmicOnRtk]
+AddReg = ProductId_AddReg,MSI_VendorName
+
+[AzAudModel3.AMDDmic]
+AddReg = ProductId_AddReg,MSI_VendorName
+
+[AzAudModel4.RtkCapture]
+AddReg = ProductId_AddReg,MSI_VendorName
+
+[AzAudModel4.RtkRender]
+AddReg = ProductId_AddReg,MSI_VendorName
+
+[RtkRenderInterface_AddReg]
+HKR,Settings,EPSubVer2,0x00010001,5
+HKR,InterfaceSetting,RearLineOutTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,PrimaryLineOutTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,SingleLineOutTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,SecondaryLineOutTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,FrontPanelHeadphoneTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RtSpdifTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RtSpdifHDMITopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RtSpdifRCATopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RtSpdifOptTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,BTBPOutTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearLineOutTopoSST,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearLineOutTopoSST2,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearLineOutTopoSST3,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearLineOutTopoDock,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearLineOutTopoHap,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearLineOutTopoHap2,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearLineOutTopoHap3,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+
+[RtkCaptureInterface_AddReg]
+HKR,InterfaceSetting,RearMicInBlackTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearMicInGreyTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearMicInBlueTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearMicInGreenTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearMicInRedTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearMicInOrangeTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearMicInYellowTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearMicInPurpleTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearMicInPinkTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearMicInGoldenTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearMicInSilverTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RearMicInWhiteTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,FrontMicInBlackTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,FrontMicInGreyTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,FrontMicInBlueTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,FrontMicInGreenTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,FrontMicInRedTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,FrontMicInOrangeTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,FrontMicInYellowTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,FrontMicInPurpleTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,FrontMicInPinkTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,FrontMicInGoldenTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,FrontMicInSilverTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,FrontMicInWhiteTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,BTBPInTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RtMicInTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RtFrontMicInTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,DigitalMICTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RtMicArTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+HKR,InterfaceSetting,RtMicInSSTTopo,0x10008,"GeneralRtkEP_1570","MSIVNRtkEP_1570"
+
+[General_RtkEPAddReg]
+;; PKEY_AudioEndpoint_Association
+HKR,InterfaceSetting\GeneralRtkEP_1570\EP\0,%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,InterfaceSetting\GeneralRtkEP_1570\EP\1,%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,InterfaceSetting\GeneralRtkEP_1570\EP\2,%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+
+;; PKEY_PRODUCTID
+HKR,InterfaceSetting\GeneralRtkEP_1570\EP\0,%PKEY_PRODUCTID%,%REG_SZ%,%PRODUCTID%
+HKR,InterfaceSetting\GeneralRtkEP_1570\EP\1,%PKEY_PRODUCTID%,%REG_SZ%,%PRODUCTID%
+HKR,InterfaceSetting\GeneralRtkEP_1570\EP\2,%PKEY_PRODUCTID%,%REG_SZ%,%PRODUCTID%
+
+;; PKEY_PRODUCTID_ISST
+HKR,InterfaceSetting\GeneralRtkEP_1570\EP\0,%PKEY_PRODUCTID_ISST%,%REG_SZ%,%PRODUCTID%
+HKR,InterfaceSetting\GeneralRtkEP_1570\EP\1,%PKEY_PRODUCTID_ISST%,%REG_SZ%,%PRODUCTID%
+HKR,InterfaceSetting\GeneralRtkEP_1570\EP\2,%PKEY_PRODUCTID_ISST%,%REG_SZ%,%PRODUCTID%
+
+;; PKEY_SUPPORT: value 1 for Realtek
+HKR,InterfaceSetting\GeneralRtkEP_1570\EP\0,%PKEY_SUPPORT%,%REG_DWORD%,0x1
+HKR,InterfaceSetting\GeneralRtkEP_1570\EP\1,%PKEY_SUPPORT%,%REG_DWORD%,0x1
+HKR,InterfaceSetting\GeneralRtkEP_1570\EP\2,%PKEY_SUPPORT%,%REG_DWORD%,0x1
+
+[MSIVN_RtkEPAddReg]
+HKR,InterfaceSetting\MSIVNRtkEP_1570\EP\0,%PKEY_VENDORNAME%,%REG_SZ%,"MSI"
+HKR,InterfaceSetting\MSIVNRtkEP_1570\EP\1,%PKEY_VENDORNAME%,%REG_SZ%,"MSI"
+HKR,InterfaceSetting\MSIVNRtkEP_1570\EP\2,%PKEY_VENDORNAME%,%REG_SZ%,"MSI"
+
+[ProductId_AddReg]
+;; PKEY_AudioEndpoint_Association
+HKR,EP\0,%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,EP\1,%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,EP\2,%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+
+;; PKEY_PRODUCTID
+HKR,EP\0,%PKEY_PRODUCTID%,%REG_SZ%,%PRODUCTID%
+HKR,EP\1,%PKEY_PRODUCTID%,%REG_SZ%,%PRODUCTID%
+HKR,EP\2,%PKEY_PRODUCTID%,%REG_SZ%,%PRODUCTID%
+
+;; PKEY_PRODUCTID_ISST
+HKR,EP\0,%PKEY_PRODUCTID_ISST%,%REG_SZ%,%PRODUCTID%
+HKR,EP\1,%PKEY_PRODUCTID_ISST%,%REG_SZ%,%PRODUCTID%
+HKR,EP\2,%PKEY_PRODUCTID_ISST%,%REG_SZ%,%PRODUCTID%
+
+;; PKEY_SUPPORT: value 1 for Realtek
+HKR,EP\0,%PKEY_SUPPORT%,%REG_DWORD%,0x1
+HKR,EP\1,%PKEY_SUPPORT%,%REG_DWORD%,0x1
+HKR,EP\2,%PKEY_SUPPORT%,%REG_DWORD%,0x1
+
+[MSI_VendorName]
+;; PKEY_VENDORNAME
+HKR,EP\0,%PKEY_VENDORNAME%,%REG_SZ%,"MSI"
+HKR,EP\1,%PKEY_VENDORNAME%,%REG_SZ%,"MSI"
+HKR,EP\2,%PKEY_VENDORNAME%,%REG_SZ%,"MSI"
+
+[Strings]
+Provider = "A-Volute"
+Device.ExtensionDesc = "A-Volute APO4 Extension"
+DiskId1 = "A-Volute Extension Installation Disk"
+ProductId = "A-Volute.Nahimic"
+PKEY_AudioEndpoint_Association = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},2"
+PKEY_PRODUCTID = "{F363DF17-A750-4AC3-B7B5-2BBEFFA9085F},11"
+PKEY_PRODUCTID_ISST = "{9B8844FE-1650-40E5-A5EA-11B8C83821A1},12"
+PKEY_SUPPORT = "{1A6219BF-2157-4A15-9414-5BFD0593D3E6},0"
+PKEY_VENDORNAME = "{3B454CDE-1938-473F-9DBF-5D6A56332FB5},0"
+
+KSNODETYPE_ANY = "{00000000-0000-0000-0000-000000000000}"
+KSCATEGORY_REALTIME = "{EB115FFC-10C8-4964-831D-6DCB02E6F23F}"
+KSCATEGORY_CAPTURE = "{65E8773D-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_RENDER = "{65E8773E-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_AUDIO = "{6994AD04-93EF-11D0-A3CC-00A0C9223196}"
+KSCATEGORY_TOPOLOGY = "{DDA54A40-1E4C-11D1-A050-405705C10000}"
+
+REG_SZ = 0x00000000
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000

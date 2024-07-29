@@ -1,0 +1,50 @@
+[Version]
+Signature = "$Windows NT$"
+Class = SoftwareComponent
+ClassGuid = {5c4c3332-344d-483c-8739-259e934c9cc8}
+Provider = %Provider%
+DriverVer = 08/21/2022,2.0.3.0
+CatalogFile = NHMirroringInstallerSWC.cat
+
+[SourceDisksFiles]
+NahimicMirroringInstaller.exe = 1
+
+[SourceDisksNames]
+1 = %DiskName%
+
+[DestinationDirs]
+NahimicMirroringComponent_CopyFiles = 13 ; copy to driverstore
+
+[Manufacturer]
+%Provider% = NahimicMirroringComponent,NTamd64
+
+[NahimicMirroringComponent.NTamd64]
+%DeviceName% = NahimicMirroringComponent_Install, SWC\VEN_AVOL&IID_0300 ;; MSI
+%DeviceName% = NahimicMirroringComponent_Install, SWC\VEN_AVOL&IID_0700 ;; Gigabyte
+%DeviceName% = NahimicMirroringComponent_Install, SWC\VEN_AVOL&IID_0800 ;; Lenovo
+%DeviceName% = NahimicMirroringComponent_Install, SWC\VEN_AVOL&IID_0D00 ;; ASRock APO3 / Huawei APO4
+%DeviceName% = NahimicMirroringComponent_Install, SWC\VEN_AVOL&IID_0E00 ;; Machenike
+%DeviceName% = NahimicMirroringComponent_Install, SWC\VEN_AVOL&IID_0F00 ;; Thunderobot
+%DeviceName% = NahimicMirroringComponent_Install, SWC\VEN_AVOL&IID_1000 ;; ASRock APO4
+
+[NahimicMirroringComponent_Install.NT]
+CopyFiles = NahimicMirroringComponent_CopyFiles
+
+[NahimicMirroringComponent_Install.NT.Software]
+AddSoftware = NahimicMirroring_Component_Componentsoftware, 0x00000001, NahimicMirroringComponent_SoftwareInstall
+
+[NahimicMirroringComponent_Install.NT.Services]
+AddService = ,2  ; no function driver
+
+[NahimicMirroringComponent_SoftwareInstall]
+SoftwareType = 1
+SoftwareBinary = NahimicMirroringInstaller.exe
+SoftwareVersion = 2.0.3.0
+
+[NahimicMirroringComponent_CopyFiles]
+NahimicMirroringInstaller.exe
+
+[Strings]
+Provider = "Nahimic"
+DiskName = "Nahimic Mirroring Component Installation Disk"
+DeviceName = "Nahimic Mirroring Component Device"

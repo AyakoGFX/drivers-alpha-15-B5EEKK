@@ -1,0 +1,61 @@
+; Blackmagic Design DaVinci Resolve Panels USB Device
+; Copyright 2011-2023 Blackmagic Design
+
+
+
+[Version]
+Signature = "$Windows NT$"
+Class=Media
+ClassGuid={4d36e96c-e325-11ce-bfc1-08002be10318}
+CatalogFile=DaVinciPanels.cat
+Provider=%Blackmagic%
+DriverVer=06/07/2023, 2.0.7.0
+
+[Manufacturer]
+%Blackmagic%=Blackmagic,NTamd64
+
+[Blackmagic]
+%USB\VID_1EDB&PID_DA07.DeviceDesc%=DaVinciPanels, USB\VID_1EDB&PID_DA07
+%USB\VID_1EDB&PID_DA08.DeviceDesc%=DaVinciPanels, USB\VID_1EDB&PID_DA08
+%USB\VID_1EDB&PID_DA09.DeviceDesc%=DaVinciPanels, USB\VID_1EDB&PID_DA09
+%USB\VID_1EDB&PID_DA0A.DeviceDesc%=DaVinciPanels, USB\VID_1EDB&PID_DA0A
+[Blackmagic.NTamd64]
+%USB\VID_1EDB&PID_DA07.DeviceDesc%=DaVinciPanels, USB\VID_1EDB&PID_DA07
+%USB\VID_1EDB&PID_DA08.DeviceDesc%=DaVinciPanels, USB\VID_1EDB&PID_DA08
+%USB\VID_1EDB&PID_DA09.DeviceDesc%=DaVinciPanels, USB\VID_1EDB&PID_DA09
+%USB\VID_1EDB&PID_DA0A.DeviceDesc%=DaVinciPanels, USB\VID_1EDB&PID_DA0A
+
+[SourceDisksNames]
+0=%DiskName%,,,
+
+[SourceDisksFiles]
+DaVinciPanels.sys=0,,
+
+[DestinationDirs]
+DefaultDestDir = 12
+DaVinciPanels.Files.Drivers = 12
+
+[DaVinciPanels]
+CopyFiles = DaVinciPanels.Files.Drivers
+
+[DaVinciPanels.Services]
+AddService = DaVinciPanels, 0x00000002, DaVinciPanels.AddService
+
+[DaVinciPanels.AddService]
+DisplayName    = %DaVinciPanels.ServiceDesc%
+ServiceType    = 1 ; SERVICE_KERNEL_DRIVER
+StartType      = 3 ; SERVICE_DEMAND_START
+ErrorControl   = 1 ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\DaVinciPanels.sys
+
+[DaVinciPanels.Files.Drivers]
+DaVinciPanels.sys
+
+[Strings]
+Blackmagic = "Blackmagic Design"
+USB\VID_1EDB&PID_DA07.DeviceDesc="Blackmagic DaVinci Resolve Panel Micro"
+USB\VID_1EDB&PID_DA08.DeviceDesc="Blackmagic DaVinci Resolve Panel Mini"
+USB\VID_1EDB&PID_DA09.DeviceDesc="Blackmagic DaVinci Resolve Panel Mini"
+USB\VID_1EDB&PID_DA0A.DeviceDesc="Blackmagic DaVinci Resolve Panel Mini"
+DaVinciPanels.ServiceDesc = "Blackmagic DaVinci Resolve Panel Driver"
+DiskName="Blackmagic DaVinci Resolve Panel Drivers"

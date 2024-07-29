@@ -1,0 +1,56 @@
+; Blackmagic Design DaVinci Resolve Keyboards USB Device
+; Copyright 2011-2022 Blackmagic Design
+
+
+
+[Version]
+Signature = "$Windows NT$"
+Class=Media
+ClassGuid={4d36e96c-e325-11ce-bfc1-08002be10318}
+CatalogFile=DaVinciKeyboards.cat
+Provider=%Blackmagic%
+DriverVer=10/12/2022, 1.4.4.0
+
+[Manufacturer]
+%Blackmagic%=Blackmagic,NTamd64
+
+[Blackmagic]
+%USB\VID_1EDB&PID_DA0B.DeviceDesc%=DaVinciKeyboards, USB\VID_1EDB&PID_DA0B&MI_00
+%USB\VID_1EDB&PID_DA0E.DeviceDesc%=DaVinciKeyboards, USB\VID_1EDB&PID_DA0E&MI_00
+
+[Blackmagic.NTamd64]
+%USB\VID_1EDB&PID_DA0B.DeviceDesc%=DaVinciKeyboards, USB\VID_1EDB&PID_DA0B&MI_00
+%USB\VID_1EDB&PID_DA0E.DeviceDesc%=DaVinciKeyboards, USB\VID_1EDB&PID_DA0E&MI_00
+
+[SourceDisksNames]
+0=%DiskName%,,,
+
+[SourceDisksFiles]
+DaVinciKeyboards.sys=0,,
+
+[DestinationDirs]
+DefaultDestDir = 12
+DaVinciKeyboards.Files.Drivers = 12
+
+[DaVinciKeyboards]
+CopyFiles = DaVinciKeyboards.Files.Drivers
+
+[DaVinciKeyboards.Services]
+AddService = DaVinciKeyboards, 0x00000002, DaVinciKeyboards.AddService
+
+[DaVinciKeyboards.AddService]
+DisplayName    = %DaVinciKeyboards.ServiceDesc%
+ServiceType    = 1 ; SERVICE_KERNEL_DRIVER
+StartType      = 3 ; SERVICE_DEMAND_START
+ErrorControl   = 1 ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\DaVinciKeyboards.sys
+
+[DaVinciKeyboards.Files.Drivers]
+DaVinciKeyboards.sys
+
+[Strings]
+Blackmagic = "Blackmagic Design"
+USB\VID_1EDB&PID_DA0B.DeviceDesc="Blackmagic DaVinci Resolve Editor Keyboard"
+USB\VID_1EDB&PID_DA0E.DeviceDesc="Blackmagic DaVinci Resolve Speed Editor"
+DaVinciKeyboards.ServiceDesc = "Blackmagic DaVinci Resolve Keyboard Driver"
+DiskName="Blackmagic DaVinci Resolve Keyboard Drivers"
